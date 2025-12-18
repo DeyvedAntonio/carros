@@ -23,15 +23,12 @@ Um projeto desenvolvido durante os estudos de Django no curso de Django Master d
 - tecnologia 2.2
 
 ## Competências
-Informar quais competências.
+Desenvolvimento web com framework Django.
 
 ## Técnicas utilizadas
 
 ## Integrações
 quais bibliotecas foram utilizadas para integração.
-
-## Escopo da aplicação (opcional)
-Casos de usos, cadastros.
 
 ## Agradecimentos
 Muito obrigado, por vocês estarem presentes nessa caminhada.
@@ -39,8 +36,8 @@ Muito obrigado, por vocês estarem presentes nessa caminhada.
 ## Autor
 Deyved Antonio
 
-(Linkedin)[https://www.linkedin.com/in/deyved-antonio-161216122/]
+[Linkedin](https://www.linkedin.com/in/deyved-antonio-161216122/)
 
-(Medium)[https://medium.com/@deyved.antonio]
+[Medium](https://medium.com/@deyved.antonio)
 
-(e-mail)[deyved.antonio@gmail.com]
+[e-mail](deyved.antonio@gmail.com)
