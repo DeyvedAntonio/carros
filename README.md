@@ -17,6 +17,7 @@ Um projeto desenvolvido durante os estudos de Django no curso de Django Master d
 - Poetry
 - Python-decouple
 - Sqlite3
+- Pillow
 
 ### Requirements Dev
 - tecnologia 2.1
