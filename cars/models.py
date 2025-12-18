@@ -1,18 +1,27 @@
 from django.db import models
 
 
+class Brand(models.Model):
+
+    id = models.AutoField(primary_key=True)
+    name = models.CharField(max_length=200)
+
+    def __str__(self) -> str:
+        return str(self.name)
+
+
 class Car(models.Model):
 
-    id = models.IntegerField(primary_key=True)
+    id = models.AutoField(primary_key=True)
     model = models.CharField(
         max_length=200,
         blank=True,
         null=True,
     )
-    brand = models.CharField(
-        max_length=200,
-        blank=True,
-        null=True,
+    brand_id = models.ForeignKey(
+        Brand,
+        on_delete=models.PROTECT,
+        related_name='fk_car_brand',
     )
     factory_year = models.IntegerField(
         blank=True,
