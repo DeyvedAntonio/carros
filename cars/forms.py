@@ -1,12 +1,9 @@
 from django import forms
-from cars.models import Brand
+from cars.models import Car
 
 
-class CarForm(forms.Form):
-    model = forms.CharField(max_length=200)
-    brand = forms.ModelChoiceField(Brand.objects.all())
-    model_year = forms.IntegerField()
-    factory_year = forms.IntegerField()
-    plate = forms.CharField(max_length=10)
-    value = forms.FloatField()
-    photo = forms.ImageField()
+class CarForm(forms.ModelForm):
+
+    class Meta:
+        model = Car
+        fields = '__all__'
